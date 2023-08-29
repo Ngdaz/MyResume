@@ -1,9 +1,11 @@
 <template>
   <body>
     <aside>
-      <header></header>
+      <header>
+
+      </header>
     </aside>
-    <div><HomePage /></div>
+    <div>1</div>
   </body>
 </template>
 <script setup lang="ts">

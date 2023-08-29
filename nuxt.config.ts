@@ -9,10 +9,10 @@ export default defineNuxtConfig({
     exposeConfig: true,
   },
   components: [
-    {
-      prefix: 'Layout',
-      path: resolve('./components/layouts'),
-      global: true,
-    },
+    // {
+    //   prefix: 'Layout',
+    //   path: resolve('./components/layouts'),
+    //   global: true,
+    // },
   ],
 })
