@@ -19,8 +19,8 @@
         </div>
       </aside>
       <main class="bg-[#fff3ea] col-span-10">
-        <h1 class="text-center"></h1>
-        <h2 class="text-center"></h2>
+        <HomePage />
+        <HomePage />
       </main>
     </div>
   </body>
