@@ -9,7 +9,7 @@
           <ul class="header-menu flex flex-col justify-center">
             <li
               v-for="item in config.sectionName"
-              key="item"
+              :key="item"
               class="mb-3 flex items-center"
             >
               <div class="w-[20px] h-[11px] rounded-[5.5px] bg-[#FF6B00]"></div>
@@ -20,12 +20,11 @@
       </aside>
       <main class="bg-[#fff3ea] col-span-10">
         <HomePage />
-        <HomePage />
       </main>
     </div>
   </body>
 </template>
 <script setup lang="ts">
-import HomePage from '~/components/HomePage/HomePage.vue'
-import { config } from './config.js'
+import { config } from "./config.js";
+import HomePage from "~/components/HomePage/HomePage.vue";
 </script>

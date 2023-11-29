@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { createResolver } from '@nuxt/kit'
-const { resolve } = createResolver(import.meta.url)
+// import { createResolver } from "@nuxt/kit";
+// const { resolve } = createResolver(import.meta.url);
 export default defineNuxtConfig({
   devtools: { enabled: true },
   // pages: true,
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ["@nuxtjs/tailwindcss"],
   tailwindcss: {
     exposeConfig: true,
   },
@@ -15,4 +15,4 @@ export default defineNuxtConfig({
     //   global: true,
     // },
   ],
-})
+});
