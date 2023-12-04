@@ -4,7 +4,24 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   // pages: true,
-  modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+    "nuxt-lucide-icons",
+    [
+      "@nuxtjs/google-fonts",
+      {
+        families: {
+          Jost: {
+            wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+          },
+        },
+      },
+    ],
+  ],
+  lucide: {
+    namePrefix: "Icon",
+  },
   shadcn: {
     /**
      * Prefix for all the imported component

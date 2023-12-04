@@ -13,13 +13,16 @@
               class="mb-3 flex items-center"
             >
               <div class="w-[20px] h-[11px] rounded-[5.5px] bg-[#FF6B00]"></div>
-              <a :class="{ item }" class="block text-left ms-2">{{ item }}</a>
+              <a :class="{ item }" class="block text-left ms-2 font-jost">{{
+                item
+              }}</a>
             </li>
           </ul>
         </div>
       </aside>
-      <main class="bg-[#fff3ea] col-span-10">
+      <main class="col-span-10">
         <HomePage />
+        <AboutPage />
       </main>
     </div>
   </body>
@@ -27,4 +30,5 @@
 <script setup lang="ts">
 import { config } from "./config.js";
 import HomePage from "~/components/HomePage/HomePage.vue";
+import AboutPage from "~/components/AboutPage/AboutPage.vue";
 </script>
